@@ -73,6 +73,13 @@ header .container {
     font-weight: bold;
     font-size: 1.2rem;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.pa-badge:hover {
+    background: #FFF0E0;
+    transform: scale(1.05);
 }
 
 /* Profile Section */
