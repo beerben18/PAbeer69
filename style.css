@@ -40,29 +40,39 @@ header {
 
 header .container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap: 25px;
+    text-align: center;
 }
 
 .logo-area {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 20px;
 }
 
 .school-logo {
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     object-fit: contain;
     background: white;
-    padding: 8px;
+    padding: 12px;
     border-radius: 50%;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .school-info h1 {
     font-family: 'Itim', cursive;
-    font-size: 2.8rem;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.school-info p {
+    font-size: 1.5rem;
+    opacity: 0.9;
 }
 
 .pa-badge {
@@ -287,5 +297,12 @@ footer {
         flex-direction: column;
         gap: 20px;
         text-align: center;
+    }
+    .school-info h1 {
+        font-size: 2.5rem;
+    }
+    .school-logo {
+        width: 140px;
+        height: 140px;
     }
 }
